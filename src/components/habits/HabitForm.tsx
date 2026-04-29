@@ -91,7 +91,7 @@ export default function HabitForm({
     <form
       data-testid="habit-form"
       onSubmit={handleSubmit}
-      className="flex flex-col gap-4 rounded-2xl border border-gray-200 bg-purple-200 p-4 sm:p-5"
+      className="flex flex-col gap-4 rounded-2xl border border-gray-200 bg-[#D9E1F1] p-4 sm:p-5"
     >
       <div>
         <label
