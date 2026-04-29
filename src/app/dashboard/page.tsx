@@ -186,7 +186,7 @@ export default function DashboardPage() {
           data-testid="dashboard-page"
           className="mx-auto w-full max-w-3xl rounded-2xl bg-[#D9E1F1] p-4 shadow-xl sm:p-6"
         >
-          <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="mb-6 flex items-start justify-between gap-4">
             <div className="flex-1">
               <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
                 Habit Tracker
@@ -199,10 +199,8 @@ export default function DashboardPage() {
 
             <button
               data-testid="auth-logout-button"
-              onClick={
-                handleLogout
-              }
-              className="rounded-xl bg-red-600 px-4 py-3 text-sm font-bold text-white transition hover:bg-red-700 active:scale-[0.98]"
+              onClick={handleLogout}
+              className="rounded-lg bg-red-600 px-3 py-2 text-xs font-bold text-white transition hover:bg-red-700 active:scale-[0.98] sm:px-4 sm:py-2 sm:text-sm"
             >
               Logout
             </button>
@@ -210,12 +208,8 @@ export default function DashboardPage() {
 
           <div className="mb-5">
             <HabitForm
-              onAddHabit={
-                addHabit
-              }
-              habits={
-                habits
-              }
+              onAddHabit={addHabit}
+              habits={habits}
             />
           </div>
 
@@ -225,8 +219,7 @@ export default function DashboardPage() {
             </p>
           )}
 
-          {habits.length ===
-          0 ? (
+          {habits.length === 0 ? (
             <div
               data-testid="empty-state"
               className="rounded-2xl border-2 border-dashed border-gray-400 px-4 py-8 text-center"
@@ -241,18 +234,10 @@ export default function DashboardPage() {
             </div>
           ) : (
             <HabitList
-              habits={
-                habits
-              }
-              onCompleteHabit={
-                completeHabit
-              }
-              onEditHabit={
-                editHabit
-              }
-              onDeleteHabit={
-                deleteHabit
-              }
+              habits={habits}
+              onCompleteHabit={completeHabit}
+              onEditHabit={editHabit}
+              onDeleteHabit={deleteHabit}
             />
           )}
         </section>
