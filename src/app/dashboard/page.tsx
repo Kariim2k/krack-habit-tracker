@@ -198,11 +198,11 @@ export default function DashboardPage() {
             </div>
 
             <button
-              data-testid="auth-logout-button"
-              onClick={handleLogout}
-              className="rounded-lg bg-red-600 px-3 py-2 text-xs font-bold text-white transition hover:bg-red-700 active:scale-[0.98] sm:px-4 sm:py-2 sm:text-sm"
-            >
-              Logout
+             data-testid="auth-logout-button"
+             onClick={handleLogout}
+             className="rounded-lg bg-[#b23b3b] px-3 py-2 text-xs font-bold text-white transition hover:bg-[#992f2f] active:scale-[0.98] sm:px-4 sm:py-2 sm:text-sm"
+              >
+             Logout
             </button>
           </div>
 
