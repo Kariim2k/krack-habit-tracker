@@ -184,7 +184,7 @@ export default function DashboardPage() {
       <main className="min-h-screen bg-transparent p-3 sm:p-5">
         <section
           data-testid="dashboard-page"
-          className="mx-auto w-full max-w-3xl rounded-2xl bg-purple-700 p-4 shadow-xl sm:p-6"
+          className="mx-auto w-full max-w-3xl rounded-2xl bg-[#D9E1F1] p-4 shadow-xl sm:p-6"
         >
           <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex-1">
@@ -192,7 +192,7 @@ export default function DashboardPage() {
                 Habit Tracker
               </h1>
 
-              <p className="mt-1 text-sm text-gray-200">
+              <p className="mt-1 text-sm text-gray-700">
                 Build consistency one day at a time
               </p>
             </div>
@@ -220,7 +220,7 @@ export default function DashboardPage() {
           </div>
 
           {error && (
-            <p className="mb-4 text-sm text-red-200">
+            <p className="mb-4 text-sm text-red-600">
               {error}
             </p>
           )}
@@ -229,13 +229,13 @@ export default function DashboardPage() {
           0 ? (
             <div
               data-testid="empty-state"
-              className="rounded-2xl border-2 border-dashed border-white/30 px-4 py-8 text-center"
+              className="rounded-2xl border-2 border-dashed border-gray-400 px-4 py-8 text-center"
             >
-              <p className="text-base text-white">
+              <p className="text-base text-gray-900">
                 No habits yet.
               </p>
 
-              <p className="mt-2 text-sm text-gray-200">
+              <p className="mt-2 text-sm text-gray-700">
                 Add your first habit above.
               </p>
             </div>
