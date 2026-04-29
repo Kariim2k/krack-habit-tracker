@@ -15,7 +15,7 @@ export default function HomePage() {
       if (session) {
         router.push("/dashboard");
       } else {
-        router.push("/login");
+        router.push("/signup");
       }
     }, 1000);
 
