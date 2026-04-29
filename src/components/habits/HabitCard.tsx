@@ -106,7 +106,7 @@ export default function HabitCard({
               onClick={
                 handleSave
               }
-              className="rounded-xl bg-blue-700 px-4 py-3 text-sm font-bold text-white transition hover:bg-blue-800 active:scale-[0.98]"
+              className="rounded-xl bg-blue-600 px-4 py-3 text-sm font-bold text-white transition hover:bg-blue-700 active:scale-[0.98]"
             >
               Save
             </button>
