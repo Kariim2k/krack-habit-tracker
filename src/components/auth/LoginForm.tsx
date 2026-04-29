@@ -51,7 +51,7 @@ export default function LoginForm() {
 
   return (
     <main className="min-h-screen flex items-center justify-center p-4 sm:p-6">
-      <section className="w-full max-w-md rounded-2xl bg-purple-500 p-6 sm:p-8 shadow-xl">
+      <section className="w-full max-w-md rounded-2xl bg-[#669bbc] p-6 sm:p-8 shadow-xl">
         <h1 className="text-center text-3xl font-extrabold text-gray-900">
           Welcome Back
         </h1>
