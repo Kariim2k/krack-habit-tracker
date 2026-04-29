@@ -320,7 +320,3 @@ tests/
 Final Notes
 
 This project was designed to meet the assessment requirements while remaining simple, clean, offline-capable, and easy to maintain.
-
-=======
-# krack-habit-tracker
->>>>>>> cc5feea4a73eb771fe6df1b8bbdd14440dbb8b0b
